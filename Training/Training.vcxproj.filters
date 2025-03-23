@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\helper">
+      <UniqueIdentifier>{392589d4-5654-45a3-9eee-a969e60af8a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\api">
+      <UniqueIdentifier>{d43f830d-598b-4bc9-b5ea-0b9f5f07f137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service">
+      <UniqueIdentifier>{1b50d2bb-c0fe-4418-9f44-6a6bbeb6dd1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\helper\http">
+      <UniqueIdentifier>{3e72e734-a618-47fe-81c5-0b2a1560670b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\helper\json">
+      <UniqueIdentifier>{6e1aa2a9-9ff0-42d2-aa4c-62e1bfbca3ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service\user">
+      <UniqueIdentifier>{d9001c99-727c-4ec5-9176-efa720a19098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\api\user">
+      <UniqueIdentifier>{1ee9e0cd-f729-4e6c-8734-d9ebdf6d4fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\database">
+      <UniqueIdentifier>{fabc42e3-c1d8-490e-b0ee-e8292577ed25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\route">
+      <UniqueIdentifier>{dfcbd88c-05af-4a3d-ad2b-55a92faf0a3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Training.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonHelper.h">
+      <Filter>Source Files\helper\json</Filter>
+    </ClCompile>
+    <ClCompile Include="UserService.h">
+      <Filter>Source Files\service\user</Filter>
+    </ClCompile>
+    <ClCompile Include="UserApi.h">
+      <Filter>Source Files\api\user</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
+      <Filter>Source Files\database</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpHelper.cpp">
+      <Filter>Source Files\helper\http</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonHelper.cpp">
+      <Filter>Source Files\helper\json</Filter>
+    </ClCompile>
+    <ClCompile Include="UserApi.cpp">
+      <Filter>Source Files\api\user</Filter>
+    </ClCompile>
+    <ClCompile Include="UserService.cpp">
+      <Filter>Source Files\service\user</Filter>
+    </ClCompile>
+    <ClCompile Include="Routes.cpp">
+      <Filter>Source Files\route</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HttpHelper.h">
+      <Filter>Source Files\helper\http</Filter>
+    </ClInclude>
+    <ClInclude Include="Database.h">
+      <Filter>Source Files\database</Filter>
+    </ClInclude>
+    <ClInclude Include="Routes.h">
+      <Filter>Source Files\route</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
