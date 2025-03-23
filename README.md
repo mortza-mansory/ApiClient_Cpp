@@ -1,13 +1,20 @@
 # ApiClient_Cpp
-Let's create a curl based( using winsock2 and curl lib's) HTTP backend!
 
-## Challenge: Making a CPP client for user management from BASE! 
+A C++ HTTP backend built using `curl` and `winsock2` libs.
 
-'Ability to have a database ( in this case json for simplyfication).'
-'Ability to ADD/REMOVE/VIEW all the data's from database.'
-'Making with simple libs( LibCURL / ws2tcpip ) for setup tcp/http server.'
-'Having basic methods GET/POST/PUT'
+## Challenge! Making a HTTP Client in cpp from BASE!
 
+The goal is creating C++ backend with this features:
 
+- ** Database Support **: Uses a JSON file for simplified data storage.
+- ** Operations **: Ability to ADD/ REMOVE / View all data from the database.
+- ** Simple Libraries **: Built with `LibCURL` and `ws2tcpip` (Winsock2) for setting up a TCP/HTTP server.
+- ** Methods **: Supports basic methods  `GET`, `POST`, `PUT`.
 
-Developer: mortza mansouri.
+## Developer
+
+Developed by mortza mansouri.
+
+## Image
+
+![HTTP Server Diagram](image/image.png)
